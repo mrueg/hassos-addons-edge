@@ -1,0 +1,22 @@
+# Changelog since v0.1.0
+- Use dispatch token 
+- Test publishing 
+- Rename version back to dev 
+- Remove templating for internal ports 
+- Fix image name 
+- Rename version to edge 
+- Do not map ports 
+- Bump teddycloud to 0.6.1 
+- Make nginx backend port configurable 
+- Update port description 
+- Bump hassio base to 16.3.1 
+- Map port 8443 
+- Dockerfile: Fix line break 
+- Dockerfile: Create cache directory 
+- Update to 0.6.0 
+- Add another replacement 
+- Drop duplicate mime type 
+- Add another replacement 
+- Prettified Code! 
+- Update testing 
+- Add more ingress substitution filter 
