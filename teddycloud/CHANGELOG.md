@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- Remove init for nginx config templating 
 - Update readme 
 - Add hopefully the last one 
 - Add an additional filter 
