@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- Remove interface 
 - Hardcode ingress port 
 - Set ingress port 
 - Drop privileges 
