@@ -24,5 +24,5 @@ This repository was created for:
 
 If you are more interested in stable releases of our add-ons:
 
-<https://github.com/hassio-addons/repository>
+<https://github.com/mrueg/hassos-addons>
 
