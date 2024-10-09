@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- Update README 
 - More filters 
 - One more filter 
 - Add more filters 
