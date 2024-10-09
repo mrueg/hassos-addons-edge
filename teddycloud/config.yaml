@@ -1,10 +1,9 @@
 name: TeddyCloud
-version: aa648b5
+version: 8aafc2d
 slug: teddycloud
 description: An alternative server for your Toniebox
 url: https://github.com/mrueg/addon-teddycloud
 ingress: true
-ingress_port: 0
 ingress_stream: true
 panel_icon: mdi:teddy-bear
 image: ghcr.io/mrueg/teddycloud/{arch}
@@ -14,10 +13,6 @@ arch:
 - armv7
 init: false
 hassio_api: true
-host_network: true
-privileged:
-- NET_ADMIN
-- NET_RAW
 ports:
   80/tcp: null
   443/tcp: 443

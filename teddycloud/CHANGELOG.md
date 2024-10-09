@@ -1,4 +1,7 @@
 # Changelog since v0.1.0
+- Hardcode ingress port 
+- Set ingress port 
+- Drop privileges 
 - Use dispatch token 
 - Test publishing 
 - Rename version back to dev 
