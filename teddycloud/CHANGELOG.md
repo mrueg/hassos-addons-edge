@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- Add more filters 
 - Add more filters to nginx 
 - Remove interface 
 - Hardcode ingress port 
