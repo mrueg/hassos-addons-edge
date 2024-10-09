@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- One more filter 
 - Add more filters 
 - Fix filter 
 - Add another filter 
