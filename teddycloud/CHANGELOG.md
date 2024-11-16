@@ -1,4 +1,7 @@
 # Changelog since v0.2.1
+- Update bases 
+- Pin versions 
+- Switch base to ubuntu 
 - Revert "Update packages"
 
 This reverts commit 4568c1b30e8807acf784a263956b69f59d2f9da5. 
