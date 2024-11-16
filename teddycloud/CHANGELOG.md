@@ -1,4 +1,6 @@
 # Changelog since v0.2.1
+- Fix pinning 
+- Add missed nginx package back 
 - Update bases 
 - Pin versions 
 - Switch base to ubuntu 
