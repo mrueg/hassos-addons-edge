@@ -1,4 +1,5 @@
 # Changelog since v0.3.5
+- Fix cert migration 
 - Add more logging 
 - Another fix for migration 
 - Fix data migration 
