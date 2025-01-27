@@ -1,10 +1,2 @@
-# Changelog since v0.3.5
-- Fix cert migration 
-- Add more logging 
-- Another fix for migration 
-- Fix data migration 
-- Fix data migration 
-- Fix cert migration 
-- Document MPD streaming 
-- Update .README.j2 
-- Use new storage layout; improve docs 
+# Changelog since v0.4.0
+- Filter more paths 
