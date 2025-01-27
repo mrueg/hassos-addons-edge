@@ -1,3 +1,4 @@
-# Changelog since v0.3.4
-- Add filter to open json files in content explorer 
-- Dockerfile: drop zipfile 
+# Changelog since v0.3.5
+- Document MPD streaming 
+- Update .README.j2 
+- Use new storage layout; improve docs 
