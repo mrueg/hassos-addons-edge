@@ -1,2 +1,2 @@
-# Changelog since v0.4.0
-- Filter more paths 
+# Changelog since v0.4.1
+- Drop empty Accept-Encoding on header setting 
