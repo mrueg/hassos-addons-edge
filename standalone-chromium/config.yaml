@@ -1,5 +1,5 @@
 name: Standalone Chromium for Selenium Webdriver
-version: 96127ad
+version: bd6b514
 slug: standalone-chromium
 description: Chromium Standalone to run Selenium Webdriver remotely
 url: https://github.com/mrueg/addon-standalone-chromium
