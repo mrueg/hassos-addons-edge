@@ -1,2 +1,1 @@
-# Changelog since v138.0.7204
-- Bump to chromium 139 
+**Full Changelog**: https://github.com/mrueg/addon-standalone-chromium/compare/v139.0.7258...v140.0.7339
