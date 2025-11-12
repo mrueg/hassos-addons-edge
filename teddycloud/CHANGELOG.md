@@ -1,4 +1,5 @@
 # Changelog since v0.4.2
+- Bump base image 
 - Disable ASLR for teddycloud 
 - Bump nginx 
 - Bump base images 
