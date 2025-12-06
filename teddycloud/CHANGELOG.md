@@ -1,4 +1,5 @@
 # Changelog since v0.4.2
+- Add missing sub filter 
 - fix: Variable name 
 - Bump to 0.6.5, drop armv7 support 
 - Bump base image 
