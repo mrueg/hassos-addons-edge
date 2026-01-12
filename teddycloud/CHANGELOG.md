@@ -1,4 +1,4 @@
-# Changelog since v0.5.0
-- nginx: Add another filter for taf_encoder 
-- nginx: Add more filters 
-- Bump teddycloud to v0.6.6 
+# Changelog since v0.5.1
+- Map the share into the addon
+
+Fixes https://github.com/mrueg/addon-teddycloud/issues/30 
