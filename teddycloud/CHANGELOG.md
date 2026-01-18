@@ -1,4 +1,3 @@
-# Changelog since v0.5.1
-- Map the share into the addon
-
-Fixes https://github.com/mrueg/addon-teddycloud/issues/30 
+# Changelog since v0.5.2
+- Fix spacing 
+- Add a couple mor efilters 
