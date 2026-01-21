@@ -1,4 +1,5 @@
 # Changelog since v0.5.3
+- nginx: Another attempt 
 - nginx: Another attempt fixing uploads 
 - Consolidate config 
 - nginx: Another attempt 
