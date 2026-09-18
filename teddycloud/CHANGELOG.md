@@ -1,4 +1,18 @@
 # Changelog since v0.5.6
+- Drop hassio_api, add healthcheck, tune nginx timeouts and buffers
+
+- Remove hassio_api: nothing in rootfs/ talks to the Supervisor API,
+  so the privilege was unused.
+- Add a Docker HEALTHCHECK on the web UI so the Supervisor watchdog
+  restarts TeddyCloud when it hangs (the config.yaml watchdog option
+  is rejected by the add-on linter as obsolete).
+- Set proxy_read_timeout for the ingress server to match the existing
+  proxy_send_timeout; the http-level 300s cut the /api/sse EventSource
+  every five minutes of idle time.
+- Lower client_body_buffer_size from 256M to 1M; request buffering is
+  disabled, so the large buffer only risked memory per request.
+
+Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com> 
 - Rewrite ingress sub_filter rules generically
 
 The web UI bundle is minified, so rules keyed on minified identifiers
