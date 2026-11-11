@@ -1,4 +1,14 @@
 # Changelog since v0.5.7
+- Fix Renovate config
+
+- Look up apt package pins in the Ubuntu 24.04 (noble) archive with the
+  deb datasource instead of Repology's alpine_3_19, and allow ':', '~'
+  and '+' in Debian versions, so the pins are actually matched.
+- Strip the tc_ prefix from TeddyCloud release tags.
+- Use customManagers/managerFilePatterns instead of the deprecated
+  regexManagers/fileMatch.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com> 
 - Restart TeddyCloud instead of stopping the add-on on restart request
 
 A restart from the web UI makes TeddyCloud exit with -2 (254), which
