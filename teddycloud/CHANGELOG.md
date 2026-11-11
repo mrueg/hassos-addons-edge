@@ -1,4 +1,13 @@
 # Changelog since v0.5.7
+- Open the web UI at web/ to avoid failed asset preloads
+
+At .../web (no trailing slash) the browser's preload scanner resolves
+the UI's relative asset URLs against the ingress root before the inline
+script sets <base href>, so every page load logs a 404 for
+<ingress>/assets/... (the real requests then succeed). Open the panel
+at web/ via ingress_entry and redirect / and /web to web/ in nginx.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com> 
 - Fix Renovate config
 
 - Look up apt package pins in the Ubuntu 24.04 (noble) archive with the
